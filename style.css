@@ -55,6 +55,7 @@ body{
 }
 .donate-today-top-container{
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .donate-today-title{
@@ -66,15 +67,15 @@ body{
 .donate-today-text{
     font-family: 'Montserrat', sans-serif;
     color: #707070;
-    margin: 20px;
 }
 
-.donate-today-amount-container{
+.donate-specific-amount-container{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    margin: 60px 0;
 }
 
-.donate-amount{
+.donate-specific-amount{
     padding: 30px;
     text-align: center;
     font-size: 30px;
@@ -88,9 +89,24 @@ body{
     background-color: #FFEEEE;
 }
 
+.donate-amount-input-area{
+    display: flex;
+    justify-content: center;
+}
+
+.donate-amount-input{
+    border: 0;
+    border-bottom: 1px solid #DADADA;
+    width: 500px;
+    text-align: center;
+}
+
+.donate-submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
 .donate-submit-button{
-    display: block;
-    margin: 0 auto;
     padding: 10px 30px;
     background-color: #FF5959;
     border-radius: 5px;
@@ -99,15 +115,7 @@ body{
     border-color: #FF5959;
 }
 
-.donate-input-amount{
-    display: block;
-    margin: 0 auto;
-    border: 0;
-    border-bottom: 1px solid #DADADA;
-    width: 500px;
-    text-align: center;
-    padding: 10px;
-}
+
 
 
 /*---- Donate Plan Section ----------------------------*/
