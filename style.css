@@ -125,15 +125,50 @@ body{
 .donate-plan-top-text{
     font-family: 'Montserrat', sans-serif;
     color: #707070;
-    margin: 20px;
+    margin-top: 10px;
 }
 
 
 .donate-plan-card-container{
     display: flex;
     justify-content: center;
+    margin: 20px 0;
 }
 
 .donate-plan-card{
-    width: 30%;
+    width: 25%;
+    border-radius: 5px;
+    padding: 5% 2%;
+    margin: 10px;
 }
+
+.food-card-color{
+    background-color: #EDF5F6;
+}
+
+.shelter-card-color{
+    background-color: #FFEEEE;
+}
+
+.education-card-color{
+    background-color: #FFF4D6;
+}
+.donate-card-title{
+    margin: 15px 0;
+}
+
+.donate-card-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #707070;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+
+/*---- Get My Update Section ----------------------------*/
+
+.get-update-top-container{
+    text-align: center;
+}
+
+
