@@ -219,7 +219,6 @@ body{
 /*---- Latest Donations Section ----------------------------*/
 
 .latest-donations-area{
-    width: 100%;
     text-align: center;
     margin: 50px 0;
 }
@@ -228,6 +227,7 @@ body{
     text-align: center;
     margin: 50px 0;
 }
+
 .latest-donations-title{
     font-family: 'Inter', sans-serif;
     font-size: 45px;
@@ -236,7 +236,6 @@ body{
 .persons-donated-card-container{
     display: flex;
     justify-content: center;
-
 }
 
 .person-donate-card{
