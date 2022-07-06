@@ -167,8 +167,69 @@ body{
 
 /*---- Get My Update Section ----------------------------*/
 
+.get-update-area{
+    margin: 50px;
+}
 .get-update-top-container{
     text-align: center;
+    margin: 50px;
 }
 
+.get-update-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
 
+.get-update-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #707070;
+    margin-top: 10px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+.get-update-input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #FFF4D6;
+    height: 150px;
+}
+
+.input-email{
+    width: 275px;
+    height: 50px;
+    background-color: #D9D9D9;
+    color: #AA9F9F;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding-left: 10px;
+}
+.input-email-subscribe-button{
+    width: 160px;
+    height: 50px;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+/*---- Footer Section ----------------------------*/
+
+.footer-area{
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 100px;
+}
+
+.organization-name{
+    color: #FF5959;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.organization-slogan{
+    color: #FFFFFF;
+}
